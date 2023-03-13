@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R ugo+x
+find . -mindpath 1 -type d | wc -l
